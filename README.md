@@ -2,7 +2,7 @@
 Dennis &amp; Jessica's wedding website
 
 ## Contributing
-### Framework
+### Framework (Bootstrap 4)
 We are using Bootstrap 4 for our web framework! If you want to add something - a color change, positioning change, check the boostrap references first to see if there is any already-existing element-class for the css change.
 For example, if you want to change the text color of a paragraph to blue, instead of something like:
 ```html
@@ -25,6 +25,18 @@ Eg.
 ```html
 <div class="bg-image bg-block text-white" style="background-image: url(assets/originals/proposal.jpg)">...</div>
 ```
+
+### Fonts
+All fonts are imported in the `<head>` of the HTML document. You will see them all listed next to a comment in `index.html`:
+```html
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+```
+
+If you want to change a font, just add another line like above to import the new font.
+Then you can look in `assets/index.css` to swap out one font for another in the stylesheet.
 
 ### Viewing changes
 To view any changes you made locally, just double-click on `index.html`. Your browser should automatically load it like a webpage. Alternatively, you can open in in the console with:
