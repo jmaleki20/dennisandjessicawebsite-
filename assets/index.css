@@ -1,0 +1,26 @@
+body, html {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.9rem;
+	text-transform: uppercase;
+	height: 100%;
+}
+
+.bg-image {
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title-font {
+	font-family: 'Dancing Script', cursive;
+	text-transform: capitalize;
+	font-size: 2rem;
+}
+
+.title {
+	font-size: 4rem;
+}
