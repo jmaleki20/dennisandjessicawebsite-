@@ -2,6 +2,10 @@ env:
   - today=`date +%Y-%m-%d-%H-%M`
   - WEBSITE_INDEX_DOC=index-$today.html
 
+# skip the install and build steps
+install: true
+script: true
+
 before_deploy: 
 # we do this for cache-control. this is my favorite method.
 # essentially your browser will be like, 
