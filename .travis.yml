@@ -18,7 +18,7 @@ deploy:
   bucket: "www.dennisandjessica.com"
 
 after_deploy:
-  - echo "{\"IndexDocument\": {\"Suffix\": \"$WEBSITE_INDEX_DOC\"}}" > website.json
+  - echo "{\"IndexDocument\":{\"Suffix\":\"$WEBSITE_INDEX_DOC\"}}" > website.json
   - aws s3 put-bucket-website --bucket \
     $DENNISANDJESSICA_S3_BUCKET \
     --website-configuration website.json
