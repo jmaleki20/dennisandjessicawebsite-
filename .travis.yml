@@ -1,4 +1,4 @@
-languague: general
+language: general
 env:
   - today=`date +%Y-%m-%d-%H-%M`
   - WEBSITE_INDEX_DOC=index-$today.html
