@@ -62,6 +62,8 @@ open index.html
 - (countdown) https://the-wedding-day.vamtam.com/home-layouts/home-2/
 - (bridesmaid) https://the-wedding-day.vamtam.com/pages/bridesmaids/
 - (groomsmen) https://the-wedding-day.vamtam.com/pages/groomsmen/
+- (another countdown inspo) https://onepagelove.com/yaga   
+I like the countdown on this page we can use a random picture in the background.
 
 ### Photos:
 - use Paris ones for now,
@@ -71,4 +73,3 @@ open index.html
 - Google Forms, Sheets (RSVP data)
 - AWS S3 (static website hosting)
 - ?? (DNS) (dennisandjessica.com)
-
