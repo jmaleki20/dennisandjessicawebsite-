@@ -50,11 +50,12 @@ open index.html
 ## Specs
 
 ### Requirements:
-- Website is responsive
-- Have a countdown to the wedding (Sept 14, 2019)
-- Have a RSVP section (backend: Google Forms & Sheets)
-- Have a password or authentication of some type (so that randos can't RSVP)
-- SSL Cert? (do we even need this?)
+- [ ] Stylize & test w/ different browsers/sizes
+- [x] Website is responsive
+- [x] Have a countdown to the wedding (Sept 14, 2019)
+- [ ] Have a RSVP section (backend: Google Forms & Sheets)
+- [ ] Have a password or authentication of some type (so that randos can't RSVP)
+- [ ] SSL Cert? (do we even need this?)
 
 ### Inspo:
 - http://demo135.network.woww.co.za/
