@@ -57,7 +57,7 @@
             </li>
           </ul>
         </div>
-        <button type="button" class="btn btn-light btn-lg bg-white subtitle-font d-none d-sm-block" id="rsvp-btn" href="/rsvp">RSVP</button>
+        <button type="button" class="btn btn-light btn-lg bg-white subtitle-font d-none d-sm-block" data-toggle="modal" data-target="#rsvpModal">RSVP</button>
       </div>
     </nav>
 
@@ -255,13 +255,33 @@
         <div class="jumbotron bg-transparent text-center"> <!-- Hero? -->
           <h1 class="mt-5 title title-font">Wedding Invitation</h1>
           <br>
-          <button type="button" class="btn btn-light btn-xlg bg-white subtitle-font" id="rsvp-btn" href="/rsvp">RSVP</button>
+          <button type="button" class="btn btn-light btn-xlg bg-white subtitle-font" id="rsvp-btn" data-toggle="modal" data-target="#rsvpModal">RSVP</button>
           <br>
         </div> 
       </div>
     </div>
     </div>
     </div>
+
+    <!-- RSVP Modal -->
+<div class="modal fade" id="rsvpModal" tabindex="-1" role="dialog" aria-labelledby="rsvpModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title title-font" id="rsvpModalLabel">Let Us Know You're Coming!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body subtitle-font">
+        <i>...Embedded RSVPify.com Form Here</i>
+      </div>
+      <div class="modal-footer">
+        footer
+      </div>
+    </div>
+  </div>
+</div>
 
     <script src="assets/countdown.js"></script>
 
