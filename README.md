@@ -49,13 +49,18 @@ open index.html
 
 ## Specs
 
-### Requirements:
+### TODO:
 - [ ] Stylize & test w/ different browsers/sizes
 - [x] Website is responsive
 - [x] Have a countdown to the wedding (Sept 14, 2019)
-- [ ] Have a RSVP section (backend: Google Forms & Sheets)
+- [ ] RSVP Pop-up
 - [ ] Have a password or authentication of some type (so that randos can't RSVP)
 - [ ] SSL Cert? (do we even need this?)
+- [ ] Favicon
+- [ ] Countdown in new format
+
+### RSVP section requirements:
+- 
 
 ### Inspo:
 - http://demo135.network.woww.co.za/

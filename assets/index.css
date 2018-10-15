@@ -19,6 +19,9 @@ body, html {
 .bg-beige {
 	background-color: #f8f6f4;
 }
+.bg-green {
+	background-color: #d2f2e2;
+}
 
 .title-font {
 	font-family: 'Dancing Script', cursive;
@@ -29,7 +32,7 @@ body, html {
 	font-size: 4rem;
 }
 
-.subtitle-font {
+.subtitle-font, .countdown-title {
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	font-size: 0.9rem;
@@ -42,11 +45,23 @@ body, html {
 	letter-spacing: 2px;
 }
 
+.text-red {
+	color: #f07677;
+}
+
 .break-from-top {
 	margin-top:100px;
+}
+
+.break-from-top-sm {
+	margin-top:50px;
 }
 
 .btn-huge {
 	margin-top:50px;
 	padding: 3rem;
+}
+
+.countdown-title {
+
 }
