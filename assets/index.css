@@ -36,6 +36,22 @@ body, html {
 	background-color: #d2f2e2;
 }
 
+/* Background Images */
+.bg-paris-eiffel {
+	background-image: url(originals/eiffel-closeup.jpg);
+	background-position: right;
+}
+
+.bg-eiffel-balloons {
+	background-image: url(eiffel-balloons-cropped.jpg);
+	background-position: right;
+}
+
+.bg-proposal {
+	background-image: url(originals/proposal.jpg);
+	background-position: left;
+}
+
 /* Text */
 .title-font {
 	font-family: 'Dancing Script', cursive;
@@ -87,25 +103,16 @@ body, html {
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
-.countdown-val {
 
-}
-.countdown-label {
-
+.bridesmaids, .groomsmen {
+	padding-top: 10px;
 }
 
-/* Background Images */
-.bg-paris-eiffel {
-	background-image: url(originals/eiffel-closeup.jpg);
-	background-position: right;
+/* Bridesmaids / Groomsmen */
+.bridesmaids img, .groomsmen img {
+	max-width: 100px;
 }
 
-.bg-eiffel-balloons {
-	background-image: url(eiffel-balloons-cropped.jpg);
-	background-position: right;
-}
 
-.bg-proposal {
-	background-image: url(originals/proposal.jpg);
-	background-position: left;
-}
+
+

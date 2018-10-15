@@ -57,7 +57,7 @@ open index.html
 - [ ] Have a password or authentication of some type (so that randos can't RSVP)
 - [ ] SSL Cert? (do we even need this?)
 - [ ] Favicon
-- [ ] Countdown in new format
+- [x] Countdown in new format
 
 ### RSVP section requirements:
 - 
