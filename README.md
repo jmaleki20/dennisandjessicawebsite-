@@ -55,10 +55,11 @@ open index.html
 - [x] Have a countdown to the wedding (Sept 14, 2019)
 - [ ] RSVP Pop-up
 - [ ] Have a password or authentication of some type (so that randos can't RSVP)
-- [ ] SSL Cert? (do we even need this?)
+- [ ] SSL Cert? (do we even need this?) I think we should add it https://letsencrypt.org/
 - [ ] Favicon
 - [x] Countdown in new format
 
+Reference this doc https://docs.google.com/document/d/1KjNZxoNc-DhrlDfw4MnIdB5bmaZ-OLH0F5ch_o0HSro/edit
 ### RSVP section requirements:
 - 
 
