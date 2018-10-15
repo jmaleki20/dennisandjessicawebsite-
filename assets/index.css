@@ -15,7 +15,7 @@ body, html {
 /* Blocks */
 .bg-block {
 	/* Full height */
-    height: 100%;
+    min-height: 100%;
 }
 
 .bg-half-block {
@@ -110,7 +110,7 @@ body, html {
 
 /* Bridesmaids / Groomsmen */
 .bridesmaids img, .groomsmen img {
-	max-width: 100px;
+	height: 100px;
 }
 
 
