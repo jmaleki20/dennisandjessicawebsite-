@@ -3,6 +3,8 @@ body, html {
 	font-family: 'Lora', serif;
 	height: 100%;
 	line-height: 2rem;
+
+	scroll-behavior: smooth;
 }
 
 /* Layout */
@@ -17,7 +19,7 @@ body, html {
 }
 
 .bg-half-block {
-	height: 50%;
+	max-height: 100%;
 }
 
 .bg-image {
@@ -67,16 +69,43 @@ body, html {
 	padding: 3rem;
 }
 
-/* Countdown */
-.countdown-title {
-
+/* Nav */
+.nav-container {
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right:10px;
+	max-width: none;
+	
 }
-#countdown {
-	padding-top:25px;
+
+/* Countdown */
+#countdown-container {
+	padding-top:20px;
+	padding-bottom: 20px;
+}
+.countdown-title {
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 .countdown-val {
 
 }
 .countdown-label {
 
+}
+
+/* Background Images */
+.bg-paris-eiffel {
+	background-image: url(originals/eiffel-closeup.jpg);
+	background-position: right;
+}
+
+.bg-eiffel-balloons {
+	background-image: url(eiffel-balloons-cropped.jpg);
+	background-position: right;
+}
+
+.bg-proposal {
+	background-image: url(originals/proposal.jpg);
+	background-position: left;
 }
