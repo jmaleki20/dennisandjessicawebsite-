@@ -28,19 +28,17 @@
 
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target="#navbar" data-offset="0">
 
-  <!-- 1st SECTION (first image) -->
-  <div class="bg-image bg-block text-white bg-paris-eiffel">
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark">
       <div class="container nav-container">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav mr-auto ml-auto subtitle-font">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="#our-story">Our Story
                 <span class="sr-only">(current)</span>
               </a>
@@ -68,11 +66,14 @@
       </div>
     </nav>
 
+  <div id="content">
+  <!-- 1st SECTION (first image) -->
+  <div class="bg-image bg-block text-white bg-paris-eiffel">
     <!-- 1st Section Content -->
     <div class="container">
       <div class="row">
         <div class="col-sm-12 text-center">
-        <div class="jumbotron bg-transparent" id="title-box"> <!-- Hero? -->
+        <div class="jumbotron bg-transparent break-from-top" id="title-box"> <!-- Hero? -->
           <h1 class="mt-5 title title-font">Dennis &amp; Jessica</h1>
           <br>
           <h3 class="title-font">Are getting married &nbsp; &nbsp; 09/14/2019</h3>
@@ -136,53 +137,54 @@
 
 <!-- ENTOURAGE -->
 <div id="entourage"></div> <!-- link -->
-      <div class="bg-block bg-white">
+  <div class="bg-block bg-white">
     <div class="container">
-      <div class="row">
-      <div class="col-sm-12 text-center">
-      <h1 class="mt-5 title title-font">Entourage</h1>
-      </div>
-      </div>
-      <div class="break-from-top"></div>
-      <div class="row">
-        <div class="col-sm-6 text-center">
-          
-          <h4 class="mt-5 title-font">Bridesmaids</h4>
-          <div class="bridesmaids row">
-            <div class="col-sm-4">
-              <img src="assets/images/bridesmaids/bridesmaid-1.jpg">
-            </div>
-            <div class="col-sm-4">
-              <img src="assets/images/bridesmaids/bridesmaid-2.jpg">
-            </div>
-            <div class="col-sm-4">
-              <img src="assets/images/bridesmaids/bridesmaid-3.jpg">
-            </div>
-          </div>
-                
+  <div class="row">
+  <div class="col-sm-12 text-center">
+  <h1 class="mt-5 title title-font">Entourage</h1>
+  </div>
+  </div>
+  <div class="break-from-top"></div>
+  <div class="row">
+    <div class="col-sm-6 text-center">
+      
+      <h4 class="mt-5 title-font">Bridesmaids</h4>
+      <div class="bridesmaids row">
+        <div class="col-sm-4">
+          <img src="assets/images/bridesmaids/bridesmaid-1.jpg">
         </div>
-        <div class="col-sm-6 text-center">
-          
-          <h4 class="mt-5 title-font">Groomsmen</h4>
-          <div class="row groomsmen">
-            <div class="col-sm-4">
-              <img src="assets/images/groomsmen/groomsman-1.jpg">
-            </div>
-            <div class="col-sm-4">
-              <img src="assets/images/groomsmen/groomsman-2.jpg">
-            </div>
-            <div class="col-sm-4">
-              <img src="assets/images/groomsmen/groomsman-3.jpg">
-            </div>
-          </div>
-                
+        <div class="col-sm-4">
+          <img src="assets/images/bridesmaids/bridesmaid-2.jpg">
         </div>
+        <div class="col-sm-4">
+          <img src="assets/images/bridesmaids/bridesmaid-3.jpg">
+        </div>
+      </div>
+            
+    </div>
+    <div class="col-sm-6 text-center">
+      
+      <h4 class="mt-5 title-font">Groomsmen</h4>
+      <div class="row groomsmen">
+        <div class="col-sm-4">
+          <img src="assets/images/groomsmen/groomsman-1.jpg">
+        </div>
+        <div class="col-sm-4">
+          <img src="assets/images/groomsmen/groomsman-2.jpg">
+        </div>
+        <div class="col-sm-4">
+          <img src="assets/images/groomsmen/groomsman-3.jpg">
+        </div>
+      </div>
+            
+    </div>
+    </div>
   </div>
-  </div>
-  </div>
+</div>
+  
               
 
-<!-- ENTOURAGE -->
+<!-- EVENTS -->
 <div id="events"></div> <!-- link -->
     <div class="bg-block bg-beige">
     <div class="container">
@@ -209,50 +211,58 @@
 <div id="photos"></div> <!-- link -->
 
 <!-- REGISTRY -->
-    <div id="registry"></div> <!-- link -->
-    <div class="bg-white bg-block">
-      <div class="container">
-      <div class="row">
-        <div class="col-sm-10 offset-sm-1 text-center">
+<div id="registry"></div> <!-- link -->
+<div class="bg-white bg-block">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-10 offset-sm-1 text-center">
         <div class="bg-transparent"> <!-- Hero? -->
           <h3 class="mt-5 subtitle subtitle-font break-from-top">The Registry</h3>
           <br>
           <div class="text-black-50">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed faucibus risus. Cras pretium felis at lacinia lobortis. Vivamus a odio imperdiet, imperdiet tellus eu, euismod nulla. </div>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed faucibus risus. Cras pretium felis at lacinia lobortis. Vivamus a odio imperdiet, imperdiet tellus eu, euismod nulla. 
           </div>
-        </div> 
-        <div class="container break-from-top"></div>
-        <div class="col-sm-4 text-center" id="macys">
-          <a href="http://macys.com"> <img src="assets/store-logos/macys.png"></img></a>
         </div>
+      </div> 
+      <div class="container break-from-top"></div>
 
-        <div class="col-sm-4 text-center" id="bloomingdales">
-          <a href="http://bloomingdales.com"> <img src="assets/store-logos/bloomingdales.png"></img></a>
-        </div>
-
-        <div class="col-sm-4 text-center" id="target">
-          <a href="http://target.com"> <img src="assets/store-logos/target.png"></img></a>
-        </div>
+      <div class="col-sm-4 text-center" id="macys">
+        <a href="http://macys.com"> <img src="assets/store-logos/macys.png"></img></a>
       </div>
-    </div>
+
+      <div class="col-sm-4 text-center" id="bloomingdales">
+        <a href="http://bloomingdales.com"> <img src="assets/store-logos/bloomingdales.png"></img></a>
+      </div>
+
+      <div class="col-sm-4 text-center" id="target">
+        <a href="http://target.com"> <img src="assets/store-logos/target.png"></img></a>
+      </div>
+
     </div>
   </div>
-  <!-- 7th SECTION (image bg) -->
-   <div id="when-where"></div> <!-- link -->
+</div>
+
+
+
+<!-- bottom photo -->
+
     <div class="bg-image bg-block text-white bg-proposal">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 text-center">
-        <div class="jumbotron bg-transparent text-center  break-from-top"> <!-- Hero? -->
-          <h1 class="title-font title">Thanks for stopping by,</h1>
-          <br>
-          <h1 class="title-font">can't wait to celebrate with you.</h3>
-          <br>
-        </div> 
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <div class="jumbotron bg-transparent text-center  break-from-top"> <!-- Hero? -->
+              <h1 class="title-font title">Thanks for stopping by,</h1>
+              <br>
+              <h1 class="title-font">can't wait to celebrate with you.</h1>
+              <br>
+            </div> 
+          </div>
+        </div>
       </div>
     </div>
-    </div>
-    </div>
+    </div> <!-- end content -->
+
+
 
     <!-- RSVP Modal -->
 <div class="modal fade" id="rsvpModal" tabindex="-1" role="dialog" aria-labelledby="rsvpModalLabel" aria-hidden="true">
