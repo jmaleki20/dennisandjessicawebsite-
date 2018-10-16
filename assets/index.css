@@ -39,7 +39,7 @@ body, html {
 /* Background Images */
 .bg-paris-eiffel {
 	background-image: url(originals/eiffel-closeup.jpg);
-	background-position: right;
+	background-position: right 80%;
 }
 
 .bg-eiffel-balloons {

@@ -50,7 +50,7 @@ function updateCountdown(elem) {
 }
 
 
-window.onload = function () {
+window.addEventListener("load", function(event) {
     // we do it once here, out of the interval, because
     // setInterval will start at 1, not 0, so it would take
     // a whole second before the countdown would appear otherwise.
@@ -60,4 +60,4 @@ window.onload = function () {
         function() {updateCountdown()},
         1 * second,
     );
-};
+}, false);
