@@ -11,7 +11,7 @@ body, html {
 
 /* Layout */
 .break-from-top {
-	margin-top:100px;
+	padding-top:100px;
 }
 
 /* Blocks */
