@@ -7,7 +7,7 @@ window.addEventListener("scroll", function(event) {
 
 	console.log(alpha);
 
-    $(".navbar").css("background-color",  "rgba(0,0,0,"+alpha+")");
+    $(".navbar-fade").css("background-color",  "rgba(0,0,0,"+alpha+")");
 
 }, false);
 
