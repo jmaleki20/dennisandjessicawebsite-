@@ -73,28 +73,27 @@
     </nav>
     </header>
 
-  	<div id="content">
-  	<!-- 1st SECTION (first image) -->
-  	<!-- EVENTS -->
-<div id="events"></div> <!-- link -->
-    <div class="bg-block bg-beige">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 text-center">
-        <div class="jumbotron bg-transparent" id="title-box"> <!-- Hero? -->
-          <h1 class="mt-5 title title-font">Events (Placeholder)</h1>
-          <p class="lead subtitle-font subtitle">Ceremony, Dinner, Reception details..</p>
-          <br>
-          <p class="lead subtitle-font break-from-top">
-          Please take a moment and confirm your attendance
-          </p>
-          <!-- RSVP -->
-		<div id="rsvp"></div>
-		<button type="button" class="btn btn-light btn-xlg bg-white subtitle-font" id="rsvp-btn" data-toggle="modal" data-target="#rsvpModal">RSVP</button>
-        </div> 
+  	<div id="content" class="break-from-top  bg-green">
+      <div class="container break-from-top">
+        <div class="row">
+        <div class="nav flex-column nav-pills subtitle-font col-sm-2" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+          <a class="nav-link active" id="pill-fri" data-toggle="pill" href="#fri" role="tab" aria-controls="fri" aria-selected="true">Fri</a>
+          <a class="nav-link" id="pill-sat" data-toggle="pill" href="#sat" role="tab" aria-controls="sat" aria-selected="true">Sat</a>
+          <a class="nav-link" id="pill-sun" data-toggle="pill" href="#sun" role="tab" aria-controls="sun" aria-selected="true">Sun</a>
+        </div>
+        <div class="tab-content col-sm-10" id="v-pills-tabContent">
+          <div class="tab-pane fade show active" id="fri" role="tabpanel" aria-labelledby="pill-fri">
+            FRIDAY stuff
+          </div>
+          <div class="tab-pane fade" id="sat" role="tabpanel" aria-labelledby="pill-sat">
+            SATURDAY stuff
+          </div>
+          <div class="tab-pane fade" id="sun" role="tabpanel" aria-labelledby="pill-sun">
+            SUNDAY stuff
+          </div>
+        </div>
+        </div>
       </div>
-    </div>
-    </div>
     </div>
 
     <!-- Bootstrap core JavaScript -->
