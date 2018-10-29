@@ -38,3 +38,12 @@
 .nav-item {
     color: white;
 }
+.nav-link {
+    padding: .5rem;
+}
+.nav-pills .nav-link {
+    border-radius: 2rem; /* circle */
+    max-width: 50px;
+    text-align: center;
+    margin-top:10px;
+}
