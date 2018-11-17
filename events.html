@@ -73,15 +73,18 @@
     </nav>
     </header>
 
-  	<div id="content" class="break-from-top  bg-green">
-      <div class="container break-from-top">
+  	<div id="content" class="break-from-top bg-gray">
+      <div class="container">
         <div class="row">
         <div class="nav flex-column nav-pills subtitle-font col-sm-1" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-          <a class="nav-link active" id="pill-fri" data-toggle="pill" href="#fri" role="tab" aria-controls="fri" aria-selected="true">Fri</a>
-          <a class="nav-link" id="pill-sat" data-toggle="pill" href="#sat" role="tab" aria-controls="sat" aria-selected="true">Sat</a>
-          <a class="nav-link" id="pill-sun" data-toggle="pill" href="#sun" role="tab" aria-controls="sun" aria-selected="true">Sun</a>
+          <a class="nav-link btn-secondary active" id="pill-fri" data-toggle="pill" href="#fri" role="tab" aria-controls="fri" aria-selected="true">Fri</a>
+          <a class="nav-link  btn-secondary" id="pill-sat" data-toggle="pill" href="#sat" role="tab" aria-controls="sat" aria-selected="false">Sat</a>
+          <a class="nav-link  btn-secondary" id="pill-sun" data-toggle="pill" href="#sun" role="tab" aria-controls="sun" aria-selected="false">Sun</a>
         </div>
+
+        <!-- TAB CONTENT (fri-sun page content) -->
         <div class="tab-content col-sm-11" id="v-pills-tabContent">
+        <!-- FRIDAY -->
           <div class="tab-pane fade show active" id="fri" role="tabpanel" aria-labelledby="pill-fri">
           <div class="card">
           <div class="card-header subtitle-font">
@@ -141,11 +144,125 @@
             </div>
           </div>
           </div>
+          <!-- SATURDAY -->
           <div class="tab-pane fade" id="sat" role="tabpanel" aria-labelledby="pill-sat">
-            SATURDAY stuff
+            <div class="card">
+          <div class="card-header subtitle-font">
+                Hamptons Escape
           </div>
+            <div class="card-body">
+              <div class="row text-center">
+                <div class="col-sm-4">
+                  <div class="subtitle-font">
+                    <h5 class="card-title"></h5><!--placeholder-->
+                    <h6 class="card-subtitle mb-2 text-muted">Sat</h6>
+                    <h4 class="card-title">JUL 20</h4>
+                    <h6 class="card-subtitle mb-2 text-muted">2019</h6>
+                    <hr>
+                    4:00 PM
+                    <hr>
+                    <a href="#rsvp" class="btn btn-primary button-lg">RSVP</a>
+                    <hr>
+                  </div>
+                  <p class="card-text">
+                    Stonewall Estate
+                    <br>
+                    1595 Holmes Hollow Rd
+                    <br>
+                    Delhi, NY 13753
+                  </p>
+                </div>
+                <div class="col-sm-8">
+                <h5 class="card-title"></h5><!--placeholder-->
+                  <h6 class="card-subtitle mb-2 text-muted subtitle-font">Map to Venue</h6>
+                  <br>
+                  <iframe width="80%" height="80%" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJrRWRGT9_3IkRO79GWl6GQ0Y&key=AIzaSyDk7S7vZt8NX5jRAaZjA-RdXbmv4qRIr8M" allowfullscreen></iframe>
+                </div>
+              </div>
+              <br>
+              <hr>
+              <br>
+              <div class="row">
+                <div class="col-sm-10 offset-sm-1">
+                  <h6 class="card-subtitle mb-2 text-muted subtitle-font">Event stuff</h6>
+                  <p class="card-text">
+                  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                  </p>
+                </div>
+              </div>
+              <br>
+              <hr>
+              <br>
+              <div class="row">
+                <div class="col-sm-10 offset-sm-1">
+                  <h6 class="card-subtitle mb-2 text-muted subtitle-font">Other THings</h6>
+                  <p class="card-text">
+                  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <!-- SUNDAY -->
           <div class="tab-pane fade" id="sun" role="tabpanel" aria-labelledby="pill-sun">
-            SUNDAY stuff
+            <div class="card">
+          <div class="card-header subtitle-font">
+                Hamptons Escape
+          </div>
+            <div class="card-body">
+              <div class="row text-center">
+                <div class="col-sm-4">
+                  <div class="subtitle-font">
+                    <h5 class="card-title"></h5><!--placeholder-->
+                    <h6 class="card-subtitle mb-2 text-muted">Sat</h6>
+                    <h4 class="card-title">JUL 20</h4>
+                    <h6 class="card-subtitle mb-2 text-muted">2019</h6>
+                    <hr>
+                    4:00 PM
+                    <hr>
+                    <a href="#rsvp" class="btn btn-primary button-lg">RSVP</a>
+                    <hr>
+                  </div>
+                  <p class="card-text">
+                    Stonewall Estate
+                    <br>
+                    1595 Holmes Hollow Rd
+                    <br>
+                    Delhi, NY 13753
+                  </p>
+                </div>
+                <div class="col-sm-8">
+                <h5 class="card-title"></h5><!--placeholder-->
+                  <h6 class="card-subtitle mb-2 text-muted subtitle-font">Map to Venue</h6>
+                  <br>
+                  <iframe width="80%" height="80%" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJrRWRGT9_3IkRO79GWl6GQ0Y&key=AIzaSyDk7S7vZt8NX5jRAaZjA-RdXbmv4qRIr8M" allowfullscreen></iframe>
+                </div>
+              </div>
+              <br>
+              <hr>
+              <br>
+              <div class="row">
+                <div class="col-sm-10 offset-sm-1">
+                  <h6 class="card-subtitle mb-2 text-muted subtitle-font">Event stuff</h6>
+                  <p class="card-text">
+                  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                  </p>
+                </div>
+              </div>
+              <br>
+              <hr>
+              <br>
+              <div class="row">
+                <div class="col-sm-10 offset-sm-1">
+                  <h6 class="card-subtitle mb-2 text-muted subtitle-font">Other THings</h6>
+                  <p class="card-text">
+                  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
           </div>
         </div>
         </div>

@@ -24,7 +24,7 @@ body, html {
 
 /* Blocks */
 #content {
-	height: 100%;
+	min-height: 100%;
 	position:relative;
 }
 .bg-block {
@@ -43,11 +43,15 @@ body, html {
     background-size: cover;
 }
 
+/* colors */
 .bg-beige {
 	background-color: #f8f6f4;
 }
 .bg-green {
 	background-color: #d2f2e2;
+}
+.bg-gray {
+	background-color: #e3e3e3;
 }
 
 /* Background Images */

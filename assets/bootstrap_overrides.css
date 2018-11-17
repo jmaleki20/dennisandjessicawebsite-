@@ -43,7 +43,17 @@
 }
 .nav-pills .nav-link {
     border-radius: 2rem; /* circle */
-    max-width: 50px;
+    width: 50px;
     text-align: center;
     margin-top:10px;
+}
+/* switch orientation on mobile */
+@media screen and (max-width:575px){ /* xs */
+    .nav.nav-pills.flex-column {
+        flex-direction: row!important;
+        padding: 1rem;
+    }
+    .nav.nav-pills .nav-link {
+        margin-right: 0.5rem;
+    }
 }
