@@ -15,10 +15,6 @@ body, html {
 }
 
 
-.bottom { /* estimate! double check before using */
-	padding-top: 40%;
-}
-
 /* Blocks */
 #content {
 	min-height: 100%;
