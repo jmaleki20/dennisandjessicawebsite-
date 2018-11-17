@@ -38,6 +38,7 @@
 .nav-pills .nav-link {
     border-radius: 2rem; /* circle */
     width: 50px;
+    height: 50px;
     text-align: center;
     margin-top:10px;
 }
@@ -50,4 +51,11 @@
     .nav.nav-pills .nav-link {
         margin-right: 0.5rem;
     }
+}
+
+/* Material Icons Overrides */
+.material-icons {
+    font-size: 25px;
+    margin-top: 4px;
+    margin-left: 1px;
 }

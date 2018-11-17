@@ -41,6 +41,9 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.bg-image-fixed {
+	background-attachment: fixed;
+}
 
 /* colors */
 .bg-beige {
@@ -67,6 +70,10 @@ body, html {
 .bg-proposal {
 	background-image: url(originals/proposal.jpg);
 	background-position: left;
+}
+
+.bg-delhi-ny {
+	background-image: url(images/delhi-ny-bg.jpg);
 }
 
 /* Text */
