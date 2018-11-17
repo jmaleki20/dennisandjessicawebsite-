@@ -11,12 +11,9 @@ body, html {
 
 /* Layout */
 .break-from-top {
-	padding-top:100px;
+	padding-top:50px;
 }
 
-.break-from-nav {
-	padding-top:200px;
-}
 
 .bottom { /* estimate! double check before using */
 	padding-top: 40%;
@@ -26,6 +23,8 @@ body, html {
 #content {
 	min-height: 100%;
 	position:relative;
+	margin-top: 135px; /* for header */
+	padding-bottom: 20px;
 }
 .bg-block {
 	/* Full height */
@@ -105,6 +104,9 @@ body, html {
 
 
 /* Nav */
+#navbar, header {
+	background-color: white;
+}
 header .brand {
 	padding-top: 10px;
 }

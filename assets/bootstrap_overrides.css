@@ -4,10 +4,6 @@
     padding-left: 0.8rem;
 }
 
-.navbar-dark .navbar-nav .nav-link {
-    color: white;
-}
-
 .btn-lg {
     padding: .5rem 2rem;
     font-size: 1rem;
@@ -35,9 +31,7 @@
     height: 100%;
 }
 
-.nav-item {
-    color: white;
-}
+
 .nav-link {
     padding: .5rem;
 }
