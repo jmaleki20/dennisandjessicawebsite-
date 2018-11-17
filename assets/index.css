@@ -23,7 +23,7 @@ body, html {
 #content {
 	min-height: 100%;
 	position:relative;
-	margin-top: 135px; /* for header */
+	margin-top: 135px; /* for header on non-mobile */
 	padding-bottom: 20px;
 }
 .bg-block {
@@ -116,6 +116,19 @@ body, html {
 }
 header .brand {
 	padding-top: 10px;
+}
+.header-subtext {
+	display:inline-block;
+	padding: 10px;
+}
+@media screen and (max-width:575px){ /* xs */
+	.header-subtext {
+		display: none;
+	}
+	#content {
+		 /* to accommodate no header subtext in header when on *MOBILE*, make margin top smaller */
+		margin-top: 100px;
+	}
 }
 
 .nav-container {
