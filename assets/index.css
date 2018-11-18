@@ -1,6 +1,8 @@
 /* Basic Elements */
 body, html {
-	font-family: 'Lora', serif;
+	font-family: 'Cardo', serif;
+	letter-spacing: 2px;
+
 	height: 100%;
 	line-height: 2rem;
 
@@ -13,7 +15,9 @@ body, html {
 .break-from-top {
 	padding-top:50px;
 }
-
+.vertical-centerish {
+	padding-top:20%;
+}
 
 /* Blocks */
 #content {
@@ -26,8 +30,11 @@ body, html {
 	/* Full height */
     min-height: 100%;
 }
+.section {
+	height: 100%;
+}
 
-.bg-half-block {
+.half-section {
 	max-height: 100%;
 }
 
@@ -55,7 +62,7 @@ body, html {
 /* Background Images */
 .bg-paris-eiffel {
 	background-image: url(originals/eiffel-closeup.jpg);
-	background-position: right 80%;
+	background-position:  80% center;
 }
 
 .bg-eiffel-balloons {
@@ -65,39 +72,79 @@ body, html {
 
 .bg-proposal {
 	background-image: url(originals/proposal.jpg);
-	background-position: left;
+	background-position: left bottom;
 }
 
 .bg-delhi-ny {
 	background-image: url(images/delhi-ny-bg.jpg);
 }
 
-/* Text */
-.title-font {
-	font-family: 'Dancing Script', cursive;
-	font-size: 2rem;
+.bg-wreath {
+	background-image: url(images/greenery/wreath.png);
+	background-size: auto 80%;
+}
+.bg-upper-left-greenery {
+	background-image: url(images/greenery/upper-left-corner.png);
+	background-size: 40%;
+	background-repeat: no-repeat;
+}
+.bg-lower-right-greenery {
+	background-image: url(images/greenery/lower-right-corner.png);
+	background-size: 40%;
+	background-repeat: no-repeat;
+	background-position: bottom right;
 }
 
+/* Text */
+.title-font {
+	font-family: 'Cardo', serif;
+	letter-spacing: 2px;
+}
+.title-size {
+	font-size: 2rem;
+}
 .title {
-	font-size: 4rem;
+	padding-top:50px;
 }
 
 .subtitle-font {
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
-	font-size: 0.9rem;
 	font-weight: bold;
 	letter-spacing: 1px;
 }
-
-.subtitle {
-	font-size: 1.4rem;
-	letter-spacing: 2px;
+.subtitle-size {
+	font-size: 0.9rem;
 }
 
 .text-red {
 	color: #f07677;
 }
+
+.text-heading {
+	position:absolute;
+	margin-right:auto;
+	margin-left:auto;
+	left:0;
+	right:0;
+	font-size: 3.5rem;
+	line-height: 4rem;
+}
+/* for each section number, starting at 0 */
+.text-heading-0 {
+	top:45%;
+}
+.text-heading-1 {
+	top:125%;
+}
+
+.text-heading-2 {
+	top:235%;
+}
+.text-heading-3 {
+	top:335%;
+}
+
 
 /* Buttons */
 .btn-huge {
@@ -116,6 +163,7 @@ header .brand {
 .header-subtext {
 	display:inline-block;
 	padding: 10px;
+	font-size: 0.8rem;
 }
 @media screen and (max-width:575px){ /* xs */
 	.header-subtext {
