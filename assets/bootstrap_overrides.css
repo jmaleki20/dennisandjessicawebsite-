@@ -3,6 +3,15 @@
     padding-right: 0.8rem;
     padding-left: 0.8rem;
 }
+.nav-link {
+    font-weight: 200;
+}
+.nav-link:hover {
+    text-decoration: underline;
+}
+.nav-link.active {
+    font-weight: 800;
+}
 
 .btn-lg {
     padding: .5rem 2rem;
