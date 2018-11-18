@@ -58,6 +58,9 @@ body, html {
 .bg-gray {
 	background-color: #e3e3e3;
 }
+.bg-black {
+	background-color: black;
+}
 
 /* Background Images */
 .bg-paris-eiffel {
@@ -191,12 +194,23 @@ header .brand {
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
+.countdown-label {
+	font-size: 0.5rem;
+}
+.countdown-val {
+	font-size: 2.5rem;
+	font-family: 'Great Vibes', cursive;
+}
 
+#countdown .box {
+	padding: 10px;
+}
+
+/* Bridesmaids / Groomsmen */
 .bridesmaids, .groomsmen {
 	padding-top: 10px;
 }
 
-/* Bridesmaids / Groomsmen */
 .entourage-card {
 	padding-top: 10px;
 	padding-bottom: 10px;
