@@ -242,5 +242,9 @@ header .brand a:hover {
 	font-size: 0.9rem;
 }
 
-/* Photos page */
+
+.greenery {
+	max-width: 100%;
+	max-height: 100px;
+}
 
