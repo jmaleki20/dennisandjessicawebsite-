@@ -23,7 +23,7 @@ body, html {
 #content {
 	min-height: 100%;
 	position:relative;
-	margin-top: 135px; /* for header on non-mobile */
+	margin-top: 140px; /* for header on non-mobile */
 	padding-bottom: 20px;
 }
 .bg-block {
