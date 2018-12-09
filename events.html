@@ -25,6 +25,7 @@
 
     <!-- Icon Font -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
   </head>
 
@@ -102,7 +103,7 @@
           <div class="tab-pane fade show active" id="fri" role="tabpanel" aria-labelledby="pill-fri">
           <div class="card">
           <div class="card-header subtitle-font">
-                Hamptons Escape
+                Welcome Drinks
           </div>
             <div class="card-body">
               <div class="row text-center">
@@ -113,31 +114,29 @@
                     <h4 class="card-title">September 13</h4>
                     <h6 class="card-subtitle mb-2 text-muted">2019</h6>
                     <hr>
-                    4:00 PM
+                    7:30 PM
                     <hr>
-                                                                <div class="dropdown" style="padding-bottom: 15px;width: 200px;margin: 20px auto 15px auto;">
-                                    <div class="dropdown-toggle" style="cursor: pointer;" data-toggle="dropdown"><i class="fa fa-calendar-o fa-lg"></i><span class="push-10-l">Add to Calendar</span></div>
-                                                                        <div class="dropdown-menu dropdown-menu-right appy-add-calendar" 
-                                    data-appy-add-calendar='{"title": "Wedding Ceremony & Reception at Fairmont Sonoma Mission Inn, Creekside Lawn", "start": "2019-05-18T15:00:00-07:00", "end": "", "address": "100 Boyes Blvd. Sonoma CA 95476 United States ", "description": "For more details about this event visit: www.appycouple.com/wedding/tipandcam"}'
-                                    >
-                                        <div class="dropdown-header">Choose</div>
-                                        <ul class="nav nav-pills nav-stacked push">
-                                            <li>
-                                                <a target="_blank" class="appy-add-calendar-google" href="javascript:void(0)"><i class="fa fa-fw fa-google push-5-r"></i> Google</a>
-                                            </li>
-                                            <li>
-                                                <a target="_blank"  class="appy-add-calendar-yahoo" href="javascript:void(0)"><i class="fa fa-fw fa-yahoo push-5-r"></i> Yahoo</a>
-                                            </li>
-                                            <li>
-                                                <a  class="appy-add-calendar-ical" href="javascript:void(0)"><i class="fa fa-fw fa-apple push-5-r"></i> Apple</a>
-                                            </li>
-                                            <li>
-                                                <a  class="appy-add-calendar-outlook" class="appy-add-calendar-ical" href="javascript:void(0)"><i class="fa fa-fw fa-windows push-5-r"></i> Outlook</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    </div>
-                  </div>
+
+                    <!-- CALENDAR -->
+                   <div class="dropdown" style="padding-bottom: 15px;width: 200px;margin: 20px auto 15px auto;">
+            <div class="dropdown-toggle" style="cursor: pointer;" data-toggle="dropdown"><i class="fa fa-calendar" style="font-size:14px"></i><span>Add to Calendar</span></div>
+            <div class="dropdown-menu  appy-add-calendar"
+               data-appy-add-calendar='{"title": "Welcome Drinks at Stonewall Estate", "start": "2019-09-13T19:30:00", "end": "2019-09-13T22:00:00", "address": "1595 Holmes Hollow Rd. Delhi NY 13753 United States ", "description": "For more details about this event visit: www.dennisandjessica.com"}'>
+             <div class="dropdown-header">Choose</div>
+               <li>
+                  <a target="_blank" class="appy-add-calendar-google" href="javascript:void(0)"><i class="fa fa-fw fa-google push-5-r"></i> Google</a>
+                  </li>
+                      <li>
+                   <a  class="appy-add-calendar-ical" href="javascript:void(0)"><i class="fa fa-fw fa-apple push-5-r"></i> Apple</a>
+                    </li>
+                   <li>
+                   <a  class="appy-add-calendar-outlook" href="javascript:void(0)"><i class="fa fa-fw fa-windows push-5-r"></i> Outlook</a>
+                    </li>
+                    </ul>
+               </div>
+              </div>
+                 </div>
+
                   <p class="card-text">
                     Stonewall Estate
                     <br>
@@ -148,7 +147,11 @@
                 </div>
                 <div class="col-sm-8">
                 <h5 class="card-title"></h5><!--placeholder-->
-                  <h6 class="card-subtitle mb-2 text-muted subtitle-font">Map to Venue</h6>
+                <a href="https://www.google.com/maps/place/Stonewall+Estate/@42.238391,-74.94414,17z/data=!3m1!4b1!4m5!3m4!1s0x89dc7f3f199115ad:0x4643865e5a46bf3b!8m2!3d42.238387!4d-74.941946" target="_blank">
+                  <h6 class="card-subtitle mb-2 text-muted subtitle-font">Map to Venue
+                    <i class="material-icons" style="font-size:16px">launch</i>
+                  </h6>
+                </a>
                   <br>
                   <iframe width="80%" height="80%" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJrRWRGT9_3IkRO79GWl6GQ0Y&key=AIzaSyDk7S7vZt8NX5jRAaZjA-RdXbmv4qRIr8M" allowfullscreen></iframe>
                 </div>
@@ -182,7 +185,7 @@
           <div class="tab-pane fade" id="sat" role="tabpanel" aria-labelledby="pill-sat">
             <div class="card">
           <div class="card-header subtitle-font">
-                Hamptons Escape
+                Wedding Ceremony & Reception
           </div>
             <div class="card-body">
               <div class="row text-center">
@@ -195,7 +198,7 @@
                     <hr>
                     4:00 PM
                     <hr>
-                    <a href="#rsvp" class="btn btn-primary button-lg">RSVP</a>
+                    <a href="rsvp.html" class="btn btn-secondary button-lg">RSVP</a>
                     <hr>
                   </div>
                   <p class="card-text">
@@ -208,7 +211,11 @@
                 </div>
                 <div class="col-sm-8">
                 <h5 class="card-title"></h5><!--placeholder-->
-                  <h6 class="card-subtitle mb-2 text-muted subtitle-font">Map to Venue</h6>
+                 <a href="https://www.google.com/maps/place/Stonewall+Estate/@42.238391,-74.94414,17z/data=!3m1!4b1!4m5!3m4!1s0x89dc7f3f199115ad:0x4643865e5a46bf3b!8m2!3d42.238387!4d-74.941946" target="_blank">
+                  <h6 class="card-subtitle mb-2 text-muted subtitle-font">Map to Venue
+                    <i class="material-icons" style="font-size:16px">launch</i>
+                  </h6>
+                </a>
                   <br>
                   <iframe width="80%" height="80%" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJrRWRGT9_3IkRO79GWl6GQ0Y&key=AIzaSyDk7S7vZt8NX5jRAaZjA-RdXbmv4qRIr8M" allowfullscreen></iframe>
                 </div>
@@ -242,7 +249,7 @@
           <div class="tab-pane fade" id="sun" role="tabpanel" aria-labelledby="pill-sun">
             <div class="card">
           <div class="card-header subtitle-font">
-                Hamptons Escape
+                Farewell Brunch
           </div>
             <div class="card-body">
               <div class="row text-center">
@@ -255,7 +262,7 @@
                     <hr>
                     4:00 PM
                     <hr>
-                    <a href="#rsvp" class="btn btn-primary button-lg">RSVP</a>
+                    <a href="rsvp.html" class="btn btn-secondary button-lg">RSVP</a>
                     <hr>
                   </div>
                   <p class="card-text">
@@ -268,7 +275,11 @@
                 </div>
                 <div class="col-sm-8">
                 <h5 class="card-title"></h5><!--placeholder-->
-                  <h6 class="card-subtitle mb-2 text-muted subtitle-font">Map to Venue</h6>
+                  <a href="https://www.google.com/maps/place/Stonewall+Estate/@42.238391,-74.94414,17z/data=!3m1!4b1!4m5!3m4!1s0x89dc7f3f199115ad:0x4643865e5a46bf3b!8m2!3d42.238387!4d-74.941946" target="_blank">
+                  <h6 class="card-subtitle mb-2 text-muted subtitle-font">Map to Venue
+                    <i class="material-icons" style="font-size:16px">launch</i>
+                  </h6>
+                </a>
                   <br>
                   <iframe width="80%" height="80%" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJrRWRGT9_3IkRO79GWl6GQ0Y&key=AIzaSyDk7S7vZt8NX5jRAaZjA-RdXbmv4qRIr8M" allowfullscreen></iframe>
                 </div>
@@ -307,6 +318,10 @@
     <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/add-calendar.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 
     
 
