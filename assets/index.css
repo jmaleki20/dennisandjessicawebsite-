@@ -248,3 +248,40 @@ header .brand a:hover {
 	max-height: 100px;
 }
 
+.date-box {
+  text-transform: uppercase;
+  font-family: Helvetica, Arial, sans-serif;
+  display: block;
+  border-bottom: 1px solid #e7e7e7;
+  padding-bottom: 15px;
+  width: 200px;
+  margin: 20px auto 15px auto;
+}
+.date-box p {
+  margin: 20px;
+  font-weight: bold;
+}
+.date-box .date-main{
+  font-size: 30px;
+}   
+
+.time-box {
+  display: block;
+  border-bottom: 1px solid #e7e7e7;
+  padding: 0 0 15px 0;
+  width: 200px;
+  margin: 0 auto 20px auto;
+  line-height: 0px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.push-5-r {
+  margin-right: 5px !important;
+}
+
+
+
+
+
