@@ -22,6 +22,29 @@
   width: 100%;
 }
 
+/*
+Carousel/Modal window
+*/
+.carousel {
+  height:100%;
+}
+.modal-body {
+  height: 100%;
+}
+.carousel-item {
+  height: 100%;
+  text-align: center;
+}
+.carousel-inner {
+  max-height: 90%;
+}
+.carousel img {
+  height:90%;
+}
+.carousel-control-next, .carousel-control-prev {
+    filter: invert(100%);
+}
+
 
 /* 
 custom grid (not Bootstrap); stolen from 
