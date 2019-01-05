@@ -1,5 +1,30 @@
 /* 
-custom (not Bootstrap); stolen from 
+  photo zoom on hover css
+*/
+
+.img-container img {
+    -webkit-transition: all 0.25s ease; /* Safari and Chrome */
+    -moz-transition: all 0.25s ease; /* Firefox */
+    -ms-transition: all 0.25s ease; /* IE 9 */
+    -o-transition: all 0.25s ease; /* Opera */
+    transition: all 0.25s ease;
+}
+
+.img-container:hover img {
+    -webkit-transform:scale(1.1); /* Safari and Chrome */
+    -moz-transform:scale(1.1); /* Firefox */
+    -ms-transform:scale(1.1); /* IE 9 */
+    -o-transform:scale(1.1); /* Opera */
+     transform:scale(1.1);
+}
+
+.img-container {
+  width: 100%;
+}
+
+
+/* 
+custom grid (not Bootstrap); stolen from 
 https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
 */
 
