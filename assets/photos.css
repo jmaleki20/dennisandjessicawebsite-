@@ -51,7 +51,7 @@ button.close {
   text-align: center;
 }
 
-img {
+.carousel img {
   width: 100%;
 }
 .carousel-control-next, .carousel-control-prev {
