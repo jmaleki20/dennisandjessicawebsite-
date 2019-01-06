@@ -25,21 +25,34 @@
 /*
 Carousel/Modal window
 */
-.carousel {
-  height:100%;
-}
 .modal-body {
   height: 100%;
 }
+.modal-dialog {
+  min-width: 60%;
+}
+.modal-content {
+  background-color: transparent;
+  border: none;
+}
+.modal-header {
+  border: none;
+}
+
+button.close {
+  color: white;
+}
+
+.carousel {
+  height:95%;
+  overflow: hidden;
+}
 .carousel-item {
-  height: 100%;
   text-align: center;
 }
-.carousel-inner {
-  max-height: 90%;
-}
-.carousel img {
-  height:90%;
+
+img {
+  width: 100%;
 }
 .carousel-control-next, .carousel-control-prev {
     filter: invert(100%);
