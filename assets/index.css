@@ -21,7 +21,8 @@ body, html {
 
 /* Blocks */
 #content {
-	min-height: 100%;
+	overflow-x: hidden; /* hacky bug-fix */
+	height: 100%;
 	position:relative;
 	margin-top: 140px; /* for header on non-mobile */
 	padding-bottom: 20px;
@@ -33,7 +34,10 @@ body, html {
 .section {
 	height: 100%;
 }
-
+.big-section {
+	min-height: 100%;
+	padding: 5px;
+}
 .half-section {
 	max-height: 100%;
 }
