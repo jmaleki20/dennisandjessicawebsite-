@@ -287,5 +287,9 @@ header .brand a:hover {
 
 
 
-
+/* travel */
+img.img-airbnb {
+	max-width: 100%;
+	height: 250px;
+}
 
