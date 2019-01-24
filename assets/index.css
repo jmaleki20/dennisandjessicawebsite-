@@ -297,4 +297,16 @@ img.img-airbnb {
 width: 20px; height: 20px;
     vertical-align: middle;
   margin: 5px}
+/* unvisited link */
+/*a:link {
+  color: black;
+}
+/*visited link*/
+/*a:visited {
+  color: black;
+}*/
 
+/* mouse over link */
+/*a:hover {
+  color: gray;
+}*/
