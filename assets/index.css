@@ -80,7 +80,7 @@ body, html {
 
 .bg-proposal {
 	background-image: url(originals/proposal.jpg);
-	background-position: 25% 75%;
+	background-position: left bottom;
 }
 
 .bg-delhi-ny {
