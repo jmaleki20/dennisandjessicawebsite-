@@ -35,7 +35,7 @@ body, html {
 	height: 100%;
 }
 .big-section {
-	min-height: 100%;
+	margin-bottom: 100px;
 	padding: 5px;
 }
 .half-section {
@@ -79,7 +79,7 @@ body, html {
 
 .bg-proposal {
 	background-image: url(originals/proposal.jpg);
-	background-position: 80% center;
+	background-position: 25% 75%;
 }
 
 .bg-delhi-ny {
@@ -142,8 +142,16 @@ body, html {
 	top:45%;
 }
 .text-heading-1 {
-	top:125%;
+	top:125%
 }
+/*.text-heading-1 {*/
+	/*top:50%;*/
+	/*transform: translateY(-50%);*/
+/*}*/
+
+/*.text-heading-1 h1 {*/
+	/*font-size: 3.5rem;*/
+/*}*/
 
 .text-heading-2 {
 	top:235%;
@@ -175,6 +183,8 @@ header .brand a:hover {
 	padding: 10px;
 	font-size: 0.8rem;
 }
+
+
 @media screen and (max-width:575px){ /* xs */
 	.header-subtext {
 		display: none;
@@ -183,7 +193,23 @@ header .brand a:hover {
 		 /* to accommodate no header subtext in header when on *MOBILE*, make margin top smaller */
 		margin-top: 100px;
 	}
+		/*.bottom-text {*/
+		/*margin-bottom: 50px;*/
+	/*}*/
 }
+
+/*@media (min-width: 576px) {*/
+	/*.col-sm-6 {*/
+		/*max-width: 550px;*/
+	/*}*/
+	/*.offset-sm-3 {*/
+    	/*margin: 0 auto;*/
+	/*}*/
+	/*.bottom-text {*/
+		/*margin-bottom: 150px;*/
+	/*}*/
+/*}*/
+
 
 .nav-container {
 	padding-left: 10px;
@@ -293,10 +319,13 @@ img.img-airbnb {
 	height: auto;
 }
 
-.iconify { color: gray;
-width: 20px; height: 20px;
+.iconify {
+	color: black;
+    width: 19px;
+	height: 19px;
+	top: 5px;
     vertical-align: middle;
-  margin: 5px}
+	margin: 5px}
 /* unvisited link */
 /*a:link {
   color: black;
