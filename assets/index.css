@@ -327,16 +327,29 @@ img.img-airbnb {
 	top: 5px;
     vertical-align: middle;
 	margin: 5px}
-/* unvisited link */
-/*a:link {
-  color: black;
-}
-/*visited link*/
-/*a:visited {
-  color: black;
-}*/
 
-/* mouse over link */
-/*a:hover {
-  color: gray;
-}*/
+.dress-code-uppercase {
+	text-align: center;
+	font-family: 'BauerBodoniBT-Roman', sans-serif;
+	margin-bottom: -3%;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #6c757d;
+}
+
+.dress-code-lowercase {
+	text-align: center;
+	font-family: 'Open Sans', serif;
+	margin-top: 1%;
+	font-size: 14px;
+	text-transform: lowercase;
+	color: #101010;
+}
+
+.cardtext-title {
+	font-family: 'BauerBodoniBT-Roman', sans-serif;
+	text-transform: uppercase;
+	color: #6c757d;
+	margin-bottom: 0%;
+	margin-top: -4%;
+}
