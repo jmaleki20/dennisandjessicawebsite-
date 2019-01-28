@@ -60,6 +60,9 @@
     .nav.nav-pills .nav-link {
         margin-right: 0.5rem;
     }
+    #content {
+        padding-top: 0;
+    }
 }
 
 /* Material Icons Overrides */
