@@ -76,3 +76,7 @@
     max-height: calc(100vh - 200px);
     overflow: scroll;
 }
+
+.card-body {
+        padding-bottom: 100px;
+}
